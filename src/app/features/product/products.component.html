@@ -1,0 +1,15 @@
+  
+  <div class="cart" >
+  <button class="cart-button" (click)="showInvoice=true">Cart</button></div>
+ <div class="products-list"  *ngIf="taxesDataModel | async; let taxes">
+ <div class="product-card" *ngFor="let product of productDataModel | async">
+  <app-product-card [product]="product" [taxes]="taxes"></app-product-card>
+</div>
+ </div>
+
+ <div   [ngClass]="{'invoice-nav-visible' :showInvoice}" class="invoice-nav">
+  <span  class="closebtn" (click)="showInvoice = false">&times;</span>
+  <div class="invoice-nav-content">
+  <app-invoice></app-invoice>
+</div>
+</div>

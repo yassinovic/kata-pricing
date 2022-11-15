@@ -1,0 +1,77 @@
+[
+   
+    {
+        "id":"product_1",
+        "name": "Miracle Book",
+        "category": "BOOK",
+        "description": "A brave and heartbreaking book",
+        "price": 12.49,
+        "isImported":false
+    },
+    {
+        "id":"product_2",
+        "name": "NRJ Hits CD",
+        "category": "OTHER",
+        "description": "Album of vaious artists",
+        "price": 14.99,
+        "isImported":false
+    },
+    {
+        "id":"product_3",
+        "name": "Kinder",
+        "category": "ESSENTIAL",
+        "description": "Sweet Chocolat",
+        "price": 0.85,
+        "isImported":false
+    },
+    {
+        "id":"product_4",
+        "name": "Reeses",
+        "category": "ESSENTIAL",
+        "description": "American Chocolat",
+        "price": 10,
+        "isImported":true
+    },
+    {
+        "id":"product_5",
+        "name": "One Million",
+        "category": "OTHER",
+        "description": "parfum Paco Rabanne for men",
+        "price": 47.5,
+        "isImported":true
+
+    },
+    {
+        "id":"product_6",
+        "name": "Dior Sauvage",
+        "category": "OTHER",
+        "description": "Parfum for men",
+        "price": 27.99,
+        "isImported":true
+
+    },
+    {
+        "id":"product_7",
+        "name": "Jean Paul Gaultier",
+        "category": "OTHER",
+        "description": "Parfum for women",
+        "price": 18.99,
+        "isImported":false
+    },
+    {
+        "id":"product_8",
+        "name": "Mig Spray",
+        "category": "ESSENTIAL",
+        "description": "Migraine medicine",
+         "price": 9.75,
+         "isImported":false
+    },
+    {
+        "id":"product_9",
+        "name": "Swiss Miss",
+        "category": "ESSENTIAL",
+        "description": "Swiss Chocolat",
+        "price": 11.25,
+        "isImported":true
+    }   
+]

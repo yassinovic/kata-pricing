@@ -1,0 +1,8 @@
+[
+    {"value": 10,"fieldName": "category","fieldValue":"BOOK"
+    },
+    {"value": 20,"fieldName": "category","fieldValue":"OTHER"
+    },
+    {"value": 5,"fieldName": "isImported","fieldValue": true
+    }
+]

@@ -1,0 +1,7 @@
+<div class="left-menu-bar">
+    <ul>
+        <li *ngFor="let menu of menus" >
+            <a (click)="selectMenu(menu)">{{menu.name}}</a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,59 @@
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  .product-card {
+    padding: 1%;
+    width: 23%;
+
+  }
+}
+
+.cart {
+  padding: 1%;
+
+  button {
+    background: #c74aed;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 111px;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+
+.invoice-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.invoice-nav-content
+{
+  padding:20px;
+}
+
+.invoice-nav-visible
+{
+  width: inherit;
+}
+
+.invoice-nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  color:white;
+  margin-left: 50px;
+}

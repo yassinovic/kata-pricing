@@ -1,0 +1,32 @@
+<div class="invoice-component">
+  <h1 class="title">Facture</h1>
+  <button class="reset-btn" (click)="resetBtn()">Reset</button>
+
+  <table class="invoice-table">
+    <thead>
+      <tr>
+        <th *ngFor="let col of displayedColumns">{{col}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of (invoiceDataModel | async)?.products">
+        <td>{{item.product.name}}</td>
+        <td>{{item.quantity}}</td>
+        <td>{{item.product.price | currency:'EUR':true }}</td>
+        <td>{{item.taxes}}</td>
+        <td>{{item.priceTTC | currency:'EUR':true}}</td>
+
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr *ngIf="invoiceDataModel | async; let model">
+        <td>Total</td>
+        <td></td>
+        <td></td>
+        <td>{{model.totalTax | currency:'EUR':true}}</td>
+        <td>{{model.totalTTC | currency:'EUR':true}}</td>
+
+      </tr>
+    </tfoot>
+  </table>
+</div>
